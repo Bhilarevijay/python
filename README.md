@@ -9,20 +9,25 @@ Practice assignments :-
    
 2. Perform Linear Regression on the given student dataset to predict performance index. (dataset = Student_Performance.xlsx) #(Linear regression)
 
-3. Description of dataset: #(Logistic Regression)#
+3. Description of dataset: #(Logistic Regression)# (dataset = farmingham.xlsx)
+
     Variables
     Each attribute is a potential risk factor. There are both demographic, behavioral and medical risk factors.
+   
     Demographic:
     • Sex: male or female(Nominal)
     • Age: Age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+   
     Behavioral
     • Current Smoker: whether or not the patient is a current smoker (Nominal)
     • Cigs Per Day: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarettes, even half a cigarette.)
+   
     Medical( history)
     • BP Meds: whether or not the patient was on blood pressure medication (Nominal)
     • Prevalent Stroke: whether or not the patient had previously had a stroke (Nominal)
     • Prevalent Hyp: whether or not the patient was hypertensive (Nominal)
     • Diabetes: whether or not the patient had diabetes (Nominal)
+   
     Medical(current)
     • Tot Chol: total cholesterol level (Continuous)
     • Sys BP: systolic blood pressure (Continuous)
@@ -30,10 +35,11 @@ Practice assignments :-
     • BMI: Body Mass Index (Continuous)
     • Heart Rate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
     • Glucose: glucose level (Continuous)
+   
     Predict variable (desired target)
     • 10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
 
-4. Create a 1D tensor in Python using NumPy that contains the numbers from 1 to 10. Then, reshape it into a 2D tensor with 5 rows and 2 columns.
+5. Create a 1D tensor in Python using NumPy that contains the numbers from 1 to 10. Then, reshape it into a 2D tensor with 5 rows and 2 columns.
 
       Write a Python program that creates a 3D tensor using NumPy, where the shape of the tensor is (2, 3, 4), and all elements are initialized to random integers between 0 and 9.
       Using TensorFlow, create a tensor with shape (3, 3) and initialize it with ones. Perform the following operations on it:
